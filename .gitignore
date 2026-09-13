@@ -1,0 +1,30 @@
+# --- Build Outputs ---
+bin/
+obj/
+*.msi
+*.exe
+*.dll
+
+# --- Visual Studio Specific ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- JetBrains Rider Specific ---
+.idea/
+*.sln.iml
+
+# --- VS Code Specific ---
+.vscode/
+
+# --- Packages & Dependencies ---
+*.nuget.props
+*.nuget.targets
+packages/
+node_modules/
+
+# --- Environment & Secrets ---
+.env
+appsettings.Development.json
